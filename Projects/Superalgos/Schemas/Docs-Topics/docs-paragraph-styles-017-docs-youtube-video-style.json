@@ -1,0 +1,49 @@
+{
+    "topic": "Docs Paragraph Styles",
+    "pageNumber": 17,
+    "type": "Docs YouTube Video Style",
+    "definition": {
+        "text": "It is possible to embed YouTube videos at a Docs page. All you need to know is to copy and pate the YouTube video id into a paragraph with Youtube style."
+    },
+    "paragraphs": [
+        {
+            "style": "Text",
+            "text": "The syntax to embed a YouTube video at a Docs page is the following:"
+        },
+        {
+            "style": "Json",
+            "text": "videoId (taken from YouTube)"
+        },
+        {
+            "style": "Text",
+            "text": "If you wish the video to autoplay, that is, to start playing without user intervention like an animated GIF would, add the following string immediately after the videoId:",
+            "updated": 1616182813822
+        },
+        {
+            "style": "Json",
+            "text": "?rel=0&autoplay=1&mute=1"
+        },
+        {
+            "style": "Title",
+            "text": "Example:"
+        },
+        {
+            "style": "Json",
+            "text": "fO-CHEEVneI\n",
+            "updated": 1616182571265
+        },
+        {
+            "style": "Text",
+            "text": "This would render the following video:"
+        },
+        {
+            "style": "Youtube",
+            "text": "fO-CHEEVneI"
+        },
+        {
+            "style": "Success",
+            "text": "To edit a YouTube video paragraph, right-click slightly above the upper border of the video, not on the video itself.",
+            "updated": 1616182753529
+        }
+    ]
+}

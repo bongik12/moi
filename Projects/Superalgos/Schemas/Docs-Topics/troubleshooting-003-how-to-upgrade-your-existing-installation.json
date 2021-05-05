@@ -1,0 +1,119 @@
+{
+    "topic": "Troubleshooting",
+    "pageNumber": "3",
+    "type": "How to Upgrade Your Existing Installation",
+    "definition": {
+        "text": "Staying up to date with the latest version of the software is highly recommended. Learn how to do it and what precautions to take.",
+        "updated": 1611511361415
+    },
+    "paragraphs": [
+        {
+            "style": "Text",
+            "text": "You should expect new releases of Superalgos to become available every few months. Release announcements are made through the official Superalgos Announcements Channel.",
+            "updated": 1617647047464
+        },
+        {
+            "style": "Note",
+            "text": "During the beta stage, patches and new features may become available in the develop branch as frequently as several times per week. Due to the high frequency of their occurrence, minor updates go unannounced. If you ever experience a malfunction, make sure you upgrade your installation to the latest version available in the develop branch of the Superalgos repository before reporting a bug.",
+            "updated": 1617647903163
+        },
+        {
+            "style": "Title",
+            "text": "Read the Announcement Carefully"
+        },
+        {
+            "style": "Text",
+            "text": "Read and understand the announcement explaining the changes and how they may impact your workflow. Most importantly, find out if the new version requires upgrading your workspaces or the rest of the assets you may be working with (trading systems, data mines, etc).",
+            "updated": 1617646452770
+        },
+        {
+            "style": "Title",
+            "text": "Back-Up Your Personal Work",
+            "updated": 1617647919380
+        },
+        {
+            "style": "Important",
+            "text": "Always back up your personal work. Whether the new version is backward-compatible or not, you may — for whatever reason — want to go back to the state of affairs before the upgrade.",
+            "updated": 1617647956316
+        },
+        {
+            "style": "Text",
+            "text": "The new version will always ship with its own Plugin Workspaces. The release announcement should make it clear if the new version is backward-compatible or not. If it's not, the announcement should cover any consideration relevant to upgrading from the previous version.",
+            "updated": 1617648003762
+        },
+        {
+            "style": "Title",
+            "text": "Put the House in Order"
+        },
+        {
+            "style": "Text",
+            "text": "Stop all tasks that may be running in the Network hierarchy. Allow a minute or two until all activity stops.",
+            "updated": 1617646656306
+        },
+        {
+            "style": "Title",
+            "text": "Install the New Version",
+            "updated": 1611511465990
+        },
+        {
+            "style": "Text",
+            "text": "Run the App Update Command to install the new version of the app. Follow the instructions to close the browser and stop the client once the system is updated.",
+            "updated": 1617647599654
+        },
+        {
+            "style": "Title",
+            "text": "Apply the Guidance in the Announcement",
+            "updated": 1617647633126
+        },
+        {
+            "style": "Text",
+            "text": "If the official announcement provides information on how to upgrade your assets to use them in the new version, this is the time to follow the relevant guidance.",
+            "updated": 1617647676913
+        },
+        {
+            "style": "Important",
+            "text": "Always beware of what random people may post in open Telegram groups or forums. Patches and releases will always be made available at the master branch of the Superalgos repository.",
+            "updated": 1611511536779
+        },
+        {
+            "style": "Title",
+            "text": "Empty Cache and Hard Reload"
+        },
+        {
+            "style": "Text",
+            "text": "Once the system loads in your browser window and before you start working, it's always good practice to empty Chrome’s cache and do a hard reload to make sure the browser does use the newly installed files.",
+            "updated": 1617647736967
+        },
+        {
+            "style": "List",
+            "text": "Hit F12 to open Chrome’s Developer Tools. You do not need to use the Developers Tools, but opening it allows performing the next task.",
+            "updated": 1617647751232
+        },
+        {
+            "style": "List",
+            "text": "Right-click on the refresh icon and select Empty Cache and Hard Reload from the drop-down menu. Once refreshed, you may close Developer Tools with F12.",
+            "updated": 1617647755781
+        },
+        {
+            "style": "List",
+            "text": "F12 to open Developer Tools, then right-click on the refresh icon."
+        },
+        {
+            "style": "Title",
+            "text": "Final Tunning and Testing"
+        },
+        {
+            "style": "Text",
+            "text": "Occasionally, the new version of the system may introduce changes that may require you to update your existing trading systems or some other parts of your workspace. If that is the case, an official announcement should explain how to proceed."
+        },
+        {
+            "style": "Text",
+            "text": "This is the time to restore any of the work you may have backed up earlier."
+        },
+        {
+            "style": "Text",
+            "text": "Before going deep back to work, it is always recommended to test the new version a bit and make sure that your existing work performs as you would expect.",
+            "updated": 1617648042507
+        }
+    ]
+}
